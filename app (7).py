@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 def load_model():
-    model = tf.keras.models.load_model('/content/riceleafdisease.h5')
+    model = tf.keras.models.load_model('riceleafdisease.h5')
     return model
 
 with st.spinner('Model is being loaded..'):
